@@ -7,7 +7,12 @@
   background: var(--secondary);
   position: relative;
 }
-
+.background-image {
+  background-image: url("/public/assets/Union.png");
+  background-size: cover;
+  background-position: center;
+  /* Add more CSS styles as needed */
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

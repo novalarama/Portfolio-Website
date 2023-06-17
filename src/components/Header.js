@@ -13,7 +13,7 @@ export default function Header() {
     }
 
     return (
-        <section className="h-wrapper">
+        <section className="h-wrapper top-element">
             <div className="flexCenter paddings innerWidth h-container">
                 <img src="./assets/logo.png" alt="Logo" width={100} />
                 <OutsideClickHandler onOutsideClick={() => {setMenuOpened(false)}}>

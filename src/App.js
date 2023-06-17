@@ -4,11 +4,13 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <div className="background-image">
+      <BrowserRouter>
       <Routes>
         <Route path="/" element={<Main />}></Route>
       </Routes>
     </BrowserRouter>
+    </div>
   );
 }
 
