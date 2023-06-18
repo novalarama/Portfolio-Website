@@ -1,0 +1,112 @@
+.wide-rectangle {
+    box-sizing: border-box;
+    position: relative;
+    width: 454px;
+    height: 138px;
+    left: 0px;
+    top: 0px;
+    background: rgba(18, 24, 30, 0.8);
+    border: 1px solid rgba(18, 24, 30, 0.01);
+    backdrop-filter: blur(2px);
+    border-radius: 24px;
+    text-align: start;
+    display: flex;
+}
+
+.wide-rectangle:hover {
+    background: #1B2127;
+    border: 1px solid rgba(18, 24, 30, 0.01);
+    backdrop-filter: blur(8.4px);
+}
+
+.left-part {
+    margin-top: 16px;
+}
+
+.left-part>:nth-child(1) {
+    margin-left: 25px;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+}
+
+.left-part>:nth-child(2) {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 28px;
+    color: white;
+}
+
+.left-part>:nth-child(3) {
+    margin-left: 28px;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.right-part {
+    margin: auto;
+}
+
+.right-part>:nth-child(1) {
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .wide-rectangle {
+        box-sizing: border-box;
+        position: relative;
+        width: 22rem;
+        height: 120px;
+        left: 0px;
+        top: 0px;
+        background: rgba(18, 24, 30, 0.8);
+        border: 1px solid rgba(18, 24, 30, 0.01);
+        backdrop-filter: blur(8.4px);
+        border-radius: 24px;
+    }
+
+    .wide-rectangle:hover {
+        background: #1B2127;
+        border: 1px solid rgba(18, 24, 30, 0.01);
+        backdrop-filter: blur(8.4px);
+    }
+
+    .left-part {
+        margin-top: 12px;
+    }
+
+    .left-part>:nth-child(1) {
+        margin-left: 18px;
+        font-weight: 700;
+        font-size: 24px;
+        color: white;
+    }
+
+    .left-part>:nth-child(2) {
+        font-weight: 500;
+        font-size: 14px;
+        margin-left: 18px;
+        color: white;
+    }
+
+    .left-part>:nth-child(3) {
+        margin-left: 18px;
+        font-weight: 500;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .right-part {
+        margin: auto;
+    }
+
+    .right-part>:nth-child(1) {
+        font-weight: 500;
+        font-size: 12px;
+        color: white;
+    }
+}

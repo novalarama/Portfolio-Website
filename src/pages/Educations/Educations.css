@@ -1,0 +1,42 @@
+.educations {
+    display: flex;
+    height: 64vh;
+    margin-top: 6rem;
+}
+
+.e-left {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.e-left>:nth-child(1) {
+    width: 84%;
+}
+
+.e-right {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 32px;
+}
+
+@media (max-width: 768px) {
+    .e-left>:nth-child(1) {
+        width: 280px;
+        margin: auto;
+    }
+
+    .e-left {
+        margin: auto;
+        top: 16%;
+    }
+
+    .e-right {
+        margin: auto;
+        top: 16%;
+    }
+    .e-right>:nth-child(1){
+        width: auto;
+    }
+}
