@@ -1,0 +1,156 @@
+.experiences {
+    position: relative;
+    display: flex;
+    height: 64vh;
+    margin-top: 6rem;
+    text-align: left;
+}
+
+.ex-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.ex-left>:nth-child(1) {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110%;
+    color: #25313D;
+}
+
+.ex-left>:nth-child(2) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 134.5%;
+    color: #25313D;
+}
+
+.ex-right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.ex-right>:nth-child(1) {
+    width: 100%;
+}
+
+.ex-card {
+    margin-top: 1rem;
+    background: rgba(18, 24, 30, 0.8);
+    border: 1px solid rgba(18, 24, 30, 0.01);
+    backdrop-filter: blur(8.5px);
+    border-radius: 24px;
+    padding: 2rem;
+    color: white;
+}
+
+.ex-card>:nth-child(1) {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.ex-detail {
+    display: flex;
+}
+
+.ex-timeline {
+    flex: 0.2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ex-circular {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.ex-line {
+    width: 2px;
+    flex: 0.57;
+    background-color: white;
+}
+
+.ex-desc {
+    flex: 3;
+}
+
+.ex-desc-newest,
+.ex-desc-oldest {
+    margin-bottom: 1rem;
+}
+
+.ex-desc-newest p,
+.ex-desc-oldest p {
+    font-weight: bold;
+}
+
+.ex-desc-newest ul,
+.ex-desc-oldest ul {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.ex-desc-newest li,
+.ex-desc-oldest li {
+    margin-bottom: 0.1rem;
+    margin-left: 2rem;
+}
+
+.ex-desc-newest>:nth-child(1),
+.ex-desc-oldest>:nth-child(1) {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.ex-desc-newest>:nth-child(2),
+.ex-desc-oldest>:nth-child(2) {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width:1200px) {
+    .experiences{
+        justify-content: center;
+        align-items: center;
+    }
+    .ex-left{
+        position: absolute;
+    }
+    .ex-right{
+        justify-content: center;
+        align-items: center;
+    }
+    .ex-right>:nth-child(1){
+        width: 72%;
+    }
+    .ex-line {
+        width: 2px;
+        flex: 0.52;
+        background-color: white;
+    }
+}
+
+@media (max-width:768px) {
+    .experiences{
+        top: 16rem;
+        margin: 16px ;
+    }
+    .ex-card{
+        width: 96%;
+    }
+    .ex-line {
+        width: 2px;
+        flex: 0.56;
+        background-color: white;
+    }
+}

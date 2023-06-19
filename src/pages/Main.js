@@ -3,6 +3,7 @@ import Profile from "../pages/Profile/Profile";
 import Educations from "../pages/Educations/Educations";
 import Skills from "../pages/Skills/Skills";
 import Achievements from "./Achievements/Achievements";
+import Experiences from "./Experiences/Experiences";
 
 export default function Main () {
     return (
@@ -12,6 +13,7 @@ export default function Main () {
             <Educations />
             <Skills />
             <Achievements />
+            <Experiences />
         </div>
     )
 }

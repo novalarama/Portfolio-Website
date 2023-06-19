@@ -13,13 +13,3 @@
     justify-content: center;
     align-items: center;
 }
-
-.more-card>:nth-child(1) {
-    
-}
-
-/* @media (max-width: 768px) {
-    .more-card{
-        margin-bottom: 1rem;
-    }
-} */
