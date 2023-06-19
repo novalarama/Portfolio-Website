@@ -122,7 +122,9 @@
     .experiences{
         justify-content: center;
         align-items: center;
-    }
+        margin: 16px;
+        top: 6rem;
+     }
     .ex-left{
         position: absolute;
     }
@@ -138,12 +140,17 @@
         flex: 0.52;
         background-color: white;
     }
+    .ex-card{
+        width: 96%;
+    }
 }
 
 @media (max-width:768px) {
     .experiences{
         top: 16rem;
         margin: 16px ;
+        display: flex;
+        position: relative;
     }
     .ex-card{
         width: 96%;
@@ -152,5 +159,11 @@
         width: 2px;
         flex: 0.56;
         background-color: white;
+    }
+}
+
+@media (max-width:420px) {
+    .ex-card{
+        width: 90%;
     }
 }
