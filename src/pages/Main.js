@@ -1,6 +1,7 @@
 import Header from "../components/Header/Header";
 import Profile from "../pages/Profile/Profile";
 import Educations from "../pages/Educations/Educations";
+import Skills from "../pages/Skills/Skills";
 
 export default function Main () {
     return (
@@ -8,6 +9,7 @@ export default function Main () {
             <Header />
             <Profile />
             <Educations />
+            <Skills />
         </div>
     )
 }

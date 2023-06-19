@@ -36,7 +36,8 @@
         margin: auto;
         top: 16%;
     }
-    .e-right>:nth-child(1){
+
+    .e-right>:nth-child(1) {
         width: auto;
     }
 }

@@ -18,10 +18,10 @@ export default function Header() {
                 <img src="./assets/logo.png" alt="Logo" width={100} />
                 <OutsideClickHandler onOutsideClick={() => {setMenuOpened(false)}}>
                     <div className="flexCenter h-menu" style={getMenuStyles(menuOpened)}>
-                        <a href="">
+                        <a href="#profile">
                             Profile
                         </a>
-                        <a href="">
+                        <a href="#educations">
                             Educations
                         </a>
                         <a href="">

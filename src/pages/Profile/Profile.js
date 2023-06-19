@@ -1,10 +1,8 @@
-import Header from "../../components/Header/Header";
-import FloatingDiv from "../../components/WideRectangle/WideRectangle";
 import "./Profile.css";
 
 export default function Main() {
     return (
-        <section className="h-wrapper">
+        <section className="h-wrapper" id="profile">
             <div className="profile flexCenter paddings innerWidth h-container">
                 <div className="p-left">
                     <div className="p-description">

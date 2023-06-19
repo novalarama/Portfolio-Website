@@ -4,7 +4,7 @@ import WideRectangle from "../../components/WideRectangle/WideRectangle.js";
 
 export default function Educations() {
     return (
-        <section className="h-wrapper">
+        <section className="h-wrapper" id='educations'>
             <div className="educations flexCenter paddings innerWidth h-container">
                 <div className='e-left'>
                     <img src='./assets/Educations.png' />
