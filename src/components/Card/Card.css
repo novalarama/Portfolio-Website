@@ -1,0 +1,57 @@
+.card {
+    box-sizing: border-box;
+    position: relative;
+    width: 300px;
+    margin: auto;
+    height: 468px;
+    background: rgba(255, 255, 255, 0.86);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5.2px);
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.card>:nth-child(1) {
+    width: 260px;
+    margin: auto;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px;
+    border-radius: 36px;
+}
+
+.card>:nth-child(2) {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    color: #92989E;
+}
+
+.card>:nth-child(3) {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: left;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 2.4rem;
+    color: #25313D;
+
+}
+
+.card>:nth-child(4) {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    color: #25313D;
+
+}
+
+@media (max-width: 768px) {
+    .card{
+        margin-bottom: 1rem;
+    }
+}

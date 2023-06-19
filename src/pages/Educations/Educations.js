@@ -7,7 +7,7 @@ export default function Educations() {
         <section className="h-wrapper" id='educations'>
             <div className="educations flexCenter paddings innerWidth h-container">
                 <div className='e-left'>
-                    <img src='./assets/Educations.png' />
+                    <img src='./assets/photo/Educations.png' />
                 </div>
                 <div className='e-right'>
                     <WideRectangle title='College' instance='Institut Teknologi Sepuluh Nopember' major='Information System' time='Present'/>

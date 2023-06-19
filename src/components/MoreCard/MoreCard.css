@@ -1,0 +1,25 @@
+.more-card {
+    box-sizing: border-box;
+    position: relative;
+    width: 300px;
+    margin: auto;
+    height: 468px;
+    background: rgba(18, 24, 30, 0.8);
+    border: 1px solid rgba(18, 24, 30, 0.01);
+    backdrop-filter: blur(2px);
+    border-radius: 24px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-card>:nth-child(1) {
+    
+}
+
+/* @media (max-width: 768px) {
+    .more-card{
+        margin-bottom: 1rem;
+    }
+} */

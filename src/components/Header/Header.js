@@ -15,7 +15,7 @@ export default function Header() {
     return (
         <section className="h-wrapper top-element">
             <div className="flexCenter paddings innerWidth h-container">
-                <img src="./assets/logo.png" alt="Logo" width={100} />
+                <img src="./assets/photo/logo.png" alt="Logo" width={100} />
                 <OutsideClickHandler onOutsideClick={() => {setMenuOpened(false)}}>
                     <div className="flexCenter h-menu" style={getMenuStyles(menuOpened)}>
                         <a href="#profile">

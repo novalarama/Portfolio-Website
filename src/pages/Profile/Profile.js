@@ -14,7 +14,7 @@ export default function Main() {
                     </button>
                 </div>
                 <div className="p-right">
-                    <img src="./assets/Photo.png" alt="Profile Photo"/>
+                    <img src="./assets/photo/Photo.png" alt="Profile Photo"/>
                 </div>
             </div>
         </section>
