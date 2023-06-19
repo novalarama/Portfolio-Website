@@ -1,7 +1,7 @@
 import Header from "../components/Header/Header";
-import Profile from "../pages/Profile/Profile";
-import Educations from "../pages/Educations/Educations";
-import Skills from "../pages/Skills/Skills";
+import Profile from "./Profile/Profile";
+import Educations from "./Educations/Educations";
+import Skills from "./Skills/Skills";
 import Achievements from "./Achievements/Achievements";
 import Experiences from "./Experiences/Experiences";
 

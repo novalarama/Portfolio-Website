@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Educations.css";
-import WideRectangle from "../../components/WideRectangle/WideRectangle.js";
+import WideRectangle from "../../components/WideRectangle/WideRectangle";
 
 export default function Educations() {
     return (
