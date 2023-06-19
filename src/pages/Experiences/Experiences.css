@@ -153,17 +153,23 @@
         position: relative;
     }
     .ex-card{
-        width: 96%;
+        width: 94%;
     }
     .ex-line {
         width: 2px;
         flex: 0.56;
         background-color: white;
     }
+    .ex-left{
+        display: flex;
+    }
 }
 
 @media (max-width:420px) {
     .ex-card{
         width: 90%;
+    }
+    .ex-left{
+        display: flex;
     }
 }
