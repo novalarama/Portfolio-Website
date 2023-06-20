@@ -1,0 +1,132 @@
+.projects {
+    position: relative;
+    display: flex;
+    margin-top: 16rem;
+    flex-direction: row;
+    height: 64vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.pr-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 100%;
+}
+
+.pr-top>:nth-child(1) {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110%;
+    color: #25313D;
+    text-align: start;
+}
+
+.pr-top span {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110%;
+    color: #49535D;
+}
+
+.pr-bottom {
+    display: flex;
+    gap: 4rem;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pr-bottom button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 110%;
+    text-align: center;
+    color: #25313D;
+}
+
+.pr-more {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 110%;
+    text-align: center;
+    color: #25313D;
+}
+
+@media (max-width: 1200px) {
+    .projects {
+        margin-top: 8rem;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .pr-top {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .pr-top>:nth-child(1) {
+        font-size: 32px;
+        line-height: 110%;
+        margin-right: auto;
+    }
+
+    .pr-top span {
+        font-size: 32px;
+        line-height: 110%;
+    }
+
+    .pr-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pr-bottom .ProjectCard {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .projects {
+        top: 20rem;
+    }
+}
+
+@media (max-width:480px) {
+    .projects {
+        top: 28rem;
+    }
+}
+
+@media (max-width:380px) {
+    .projects {
+        top: 36rem;
+    }
+
+    .pr-top>:nth-child(1) {
+        font-size: 18px;
+        line-height: 110%;
+        margin-right: auto;
+    }
+
+    .pr-top span {
+        font-size: 18px;
+        line-height: 110%;
+    }
+
+    .pr-more {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 110%;
+        text-align: center;
+        color: #25313D;
+    }
+}
+
+@media (max-width:320px) {
+    .projects {
+        top: 40rem;
+    }
+}

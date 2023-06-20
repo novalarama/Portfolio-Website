@@ -172,4 +172,7 @@
     .ex-left{
         display: flex;
     }
+    .experiences{
+        position: relative;
+    }
 }

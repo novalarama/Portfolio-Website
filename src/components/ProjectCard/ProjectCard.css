@@ -1,0 +1,59 @@
+.pc {
+    width: 358px;
+    height: 580px;
+    background: rgba(255, 255, 255, 0.86);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5.2px);
+    border-radius: 24px;
+    text-align: start;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pc img {
+    width: 322px;
+    height: 260px;
+    border-radius: 36px;
+    object-fit: cover;
+}
+
+.pc>:nth-child(2) {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #92989E;
+}
+
+.pc>:nth-child(3) {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #25313D;
+}
+
+.pc>:nth-child(4) {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 117.5%;
+    color: #25313D;
+}
+
+.pc p {
+    margin-left: 0.6rem;
+}
+
+.pc button {
+    width: 322px;
+    height: 62px;
+    background: linear-gradient(180deg, #25313D 0%, #192129 100%);
+    border-radius: 24px;
+    text-align: center;
+    color: white;
+    border: none;
+    margin-top: auto;
+}

@@ -15,7 +15,7 @@ export default function Achievements() {
                     </div>
                     <div className='a-right'>
                         <div className='a-right-top'>
-                            <p>Lihat Lainnya {'>'}</p>
+                            <p>See All {'>'}</p>
                         </div>
                         <div className='a-right-bottom'>
                             <Card image='./assets/photo/Bionix.jpg' type='Competition' date='November 2022' title='Winner of BIONIX 2022' desc='This is my result of Bionix Competition. Thanks a lot for my mentors and my friends, these love for you all' />
