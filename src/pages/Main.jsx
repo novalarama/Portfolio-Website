@@ -6,6 +6,7 @@ import Achievements from "./Achievements/Achievements";
 import Experiences from "./Experiences/Experiences";
 import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
+import Footer from "../components/Footer/Footer";
 
 export default function Main () {
     return (
@@ -18,6 +19,7 @@ export default function Main () {
             <Experiences />
             <Projects />
             <Contact />
+            <Footer />
         </div>
     )
 }
