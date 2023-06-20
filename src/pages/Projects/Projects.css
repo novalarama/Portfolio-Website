@@ -9,6 +9,7 @@
 }
 
 .pr-top {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -31,8 +32,9 @@
 }
 
 .pr-bottom {
+    position: relative;
     display: flex;
-    gap: 4rem;
+    gap: 6rem;
     flex-direction: row;
     justify-content: center;
 }
@@ -58,6 +60,8 @@
         margin-top: 8rem;
         display: flex;
         align-items: flex-start;
+        padding-bottom: 108rem;
+
     }
 
     .pr-top {
@@ -91,6 +95,7 @@
 @media (max-width:768px) {
     .projects {
         top: 20rem;
+        padding-bottom: 132rem;
     }
 }
 

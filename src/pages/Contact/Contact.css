@@ -1,0 +1,73 @@
+.contact {
+    display: flex;
+    /* width: fit-content; */
+    margin-top: 16rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 16rem;
+    padding-bottom: 16rem;
+}
+
+.contact button {
+    width: 300px;
+    height: 80px;
+    background: linear-gradient(180deg, #25313D 0%, #192129 100%);
+    border-radius: 24px;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 110%;
+    color: #FFFFFF;
+    border: none;
+}
+
+.contact>:nth-child(1),
+.contact>:nth-child(2) {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 110%;
+    color: #25313D;
+}
+
+.contact>:nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 134.5%;
+    color: #49535D;
+}
+
+@media (max-width:768px) {
+    .contact button {
+        width: 240px;
+        height: 60px;
+        background: linear-gradient(180deg, #25313D 0%, #192129 100%);
+        border-radius: 24px;
+        font-weight: 550;
+        font-size: 14px;
+        line-height: 110%;
+        color: #FFFFFF;
+        border: none;
+    }
+    
+    .contact>:nth-child(1),
+    .contact>:nth-child(2) {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 110%;
+        color: #25313D;
+    }
+    
+    .contact>:nth-child(3) {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 134.5%;
+        color: #49535D;
+    }
+}
+
+@media (max-width:480px) {
+    .contact{
+        margin-top: 24rem;
+    }
+}
