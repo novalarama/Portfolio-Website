@@ -1,9 +1,22 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import "./Achievements.css";
 import Card from '../../components/Card/Card';
 import MoreCard from '../../components/MoreCard/MoreCard';
 
 export default function Achievements() {
+    let [data, setData] = useState([])
+
+  const formatDate = (date) => {
+    const options = { year: 'numeric', month: 'long' };
+    const formattedDate = new Date(date + '-01').toLocaleDateString('en-US', options);
+    return formattedDate;
+  };
+
+    useEffect(() => {
+        fetch('./assets/doc/achieveData.json')
+            .then((res) => res.json())
+            .then((data) => setData(data.data.slice(0, 2)))
+    }, [])
     return (
         <div className='a-bg'>
             <section id='achievements'>
@@ -18,8 +31,16 @@ export default function Achievements() {
                             <p>See All {'>'}</p>
                         </div>
                         <div className='a-right-bottom'>
-                            <Card image='./assets/photo/Bionix.jpg' type='Competition' date='November 2022' title='Winner of BIONIX 2022' desc='This is my result of Bionix Competition. Thanks a lot for my mentors and my friends, these love for you all' />
-                            <Card image='./assets/photo/UAJY2023.jpg' type='Competition' date='March 2023' title='3rd Winner of I2C 2023' desc='This is my result of Bionix Competition. Thanks a lot for my mentors and my friends, these love for you all' />
+                            {data.map((item) => (
+                                <Card
+                                    key={item.id}
+                                    image={item.image}
+                                    type={item.type}
+                                    date={formatDate(item.date)}
+                                    title={item.title}
+                                    desc={item.desc}
+                                />
+                            ))}
                             <MoreCard />
                         </div>
                     </div>

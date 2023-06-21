@@ -1,6 +1,17 @@
 .h-wrapper {
     background: var(--secondary) ;
     color: #6E767E;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+.h-wrapper.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .h-container {
@@ -10,7 +21,7 @@
 }
 
 .top-element {
-    position: relative;
+    /* position: relative; */
     z-index: 9999;
 }
 
