@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom';
 import "./Achievements.css";
 import Card from '../../components/Card/Card';
 import MoreCard from '../../components/MoreCard/MoreCard';
@@ -6,11 +7,11 @@ import MoreCard from '../../components/MoreCard/MoreCard';
 export default function Achievements() {
     let [data, setData] = useState([])
 
-  const formatDate = (date) => {
-    const options = { year: 'numeric', month: 'long' };
-    const formattedDate = new Date(date + '-01').toLocaleDateString('en-US', options);
-    return formattedDate;
-  };
+    const formatDate = (date) => {
+        const options = { year: 'numeric', month: 'long' };
+        const formattedDate = new Date(date + '-01').toLocaleDateString('en-US', options);
+        return formattedDate;
+    };
 
     useEffect(() => {
         fetch('./assets/doc/achieveData.json')
@@ -28,7 +29,9 @@ export default function Achievements() {
                     </div>
                     <div className='a-right'>
                         <div className='a-right-top'>
-                            <p>See All {'>'}</p>
+                            <Link id='achievement-list' to="/achievementList">
+                                <p>See All {'>'}</p>
+                            </Link>
                         </div>
                         <div className='a-right-bottom'>
                             {data.map((item) => (

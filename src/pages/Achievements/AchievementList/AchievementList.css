@@ -1,0 +1,45 @@
+.achievement-list {
+    width: 100%;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .back-button {
+    background: none;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 110%;
+    color: #25313D;
+    cursor: pointer;
+  }
+  
+  .search-input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  .achievement-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .achievement-card {
+    display: flex;
+    flex-direction: column;
+    width: 50%; /* 2 achievements per row */
+  }
+  
+  @media (max-width: 768px) {
+    .achievement-card {
+      width: 100%; /* 1 achievement per row */
+    }
+  }

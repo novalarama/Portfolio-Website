@@ -4,7 +4,7 @@
             "id": 1,
             "title": "Winner of Bionix 2022",
             "desc": "I am thrilled to be crowned as the winner of the prestigious Bionix 2022 competition. I express my heartfelt gratitude to my mentors and friends for their unwavering support and encouragement throughout the journey. This victory is a testament to our collective dedication and hard work.",
-            "type": "competition",
+            "type": "Competition",
             "date": "2022-11",
             "image": "https://drive.google.com/uc?id=1WiCeQOwtXc_vxcvQye_YW7CtfuAm1hc0"
         },
@@ -12,7 +12,7 @@
             "id": 2,
             "title": "2nd Runner Up I2C 2023",
             "desc": "Securing the position of 2nd Runner Up in the highly competitive I2C 2023 competition fills me with immense joy and pride. I extend my deepest gratitude to my mentors and friends for their constant support and belief in my abilities. This accomplishment serves as a reminder of our collective perseverance and determination.",
-            "type": "competition",
+            "type": "Competition",
             "date": "2023-03",
             "image": "https://drive.google.com/uc?id=1G9g6hsZ3dGvE4Jeq_IEVdJ0N8pF9Ay-8"
         },
@@ -20,7 +20,7 @@
             "id": 3,
             "title": "UI/UX Bootcamp in HabisKerja.com",
             "desc": "Completing the UI/UX Bootcamp at HabisKerja.com has been a transformative experience. I am grateful to my mentors and friends for their guidance and support, which has helped me refine my design skills and gain valuable industry insights. This certification is a testament to our collective passion for creating exceptional user experiences.",
-            "type": "certification",
+            "type": "Certification",
             "date": "2023-06",
             "image": "https://drive.google.com/uc?id=1trGeYVWMa4ceAEWwGlPN7cdijLeqAXdL"
         },
@@ -28,9 +28,105 @@
             "id": 4,
             "title": "Best of The Best Student 29th Generation SMK Telkom Malang",
             "desc": "Being recognized as the Best of The Best Student in the 29th Generation of SMK Telkom Malang is a tremendous honor. I express my heartfelt appreciation to my mentors and friends for their unwavering support and belief in my potential. This award symbolizes our collective pursuit of excellence and serves as a testament to our hard work.",
-            "type": "award",
+            "type": "Award",
             "date": "2023-05",
             "image": "https://drive.google.com/uc?id=1O9QhdPl06t0CYxWCE5yBRwBoI-fEKm-P"
+        },
+        {
+            "id": 5,
+            "title": "Workshop Membuat Website dengan React JS di alterra academy",
+            "desc": "Being recognized as the Best of The Best Student in the 29th Generation of SMK Telkom Malang is a tremendous honor. I express my heartfelt appreciation to my mentors and friends for their unwavering support and belief in my potential. This award symbolizes our collective pursuit of excellence and serves as a testament to our hard work.",
+            "type": "Workshop",
+            "date": "2022-06",
+            "image": "https://drive.google.com/uc?id=1-obnivJNHriKTDu_1A2SdRjSTASrICqy"
+        },
+        {
+            "id": 6,
+            "title": "Finalist of Greats Vol.6 - POLINEMA",
+            "desc": "Being recognized as the Best of The Best Student in the 29th Generation of SMK Telkom Malang is a tremendous honor. I express my heartfelt appreciation to my mentors and friends for their unwavering support and belief in my potential. This award symbolizes our collective pursuit of excellence and serves as a testament to our hard work.",
+            "type": "Competition",
+            "date": "2022-09",
+            "image": "https://drive.google.com/uc?id=1v5lpJo4-ZjMyNp93nRyEW41dZh0ujZtj"
+        },
+        {
+            "id": 7,
+            "title": "Runner Up Bizmart 3.0 PPNS",
+            "desc": "Being recognized as the Best of The Best Student in the 29th Generation of SMK Telkom Malang is a tremendous honor. I express my heartfelt appreciation to my mentors and friends for their unwavering support and belief in my potential. This award symbolizes our collective pursuit of excellence and serves as a testament to our hard work.",
+            "type": "Competition",
+            "date": "2022-03",
+            "image": "https://drive.google.com/uc?id=1tNyhRUKSLOKbSdJ4G5TlhXe1muYErnP5"
+        },
+        {
+            "id": 8,
+            "title": "Quality Assurance Internship at Gredu",
+            "desc": "Being recognized as the Best of The Best Student in the 29th Generation of SMK Telkom Malang is a tremendous honor. I express my heartfelt appreciation to my mentors and friends for their unwavering support and belief in my potential. This award symbolizes our collective pursuit of excellence and serves as a testament to our hard work.",
+            "type": "Internship",
+            "date": "2022-08",
+            "image": "https://drive.google.com/uc?id=1TFeOp5d8WaK20ZsNFxJUuWpsnYaS5KgN"
+        },
+        {
+            "id": 9,
+            "title": "Flutter Developer Internship at Gredu",
+            "desc": "Being recognized as the Best of The Best Student in the 29th Generation of SMK Telkom Malang is a tremendous honor. I express my heartfelt appreciation to my mentors and friends for their unwavering support and belief in my potential. This award symbolizes our collective pursuit of excellence and serves as a testament to our hard work.",
+            "type": "Internship",
+            "date": "2022-06",
+            "image": "https://drive.google.com/uc?id=1DUZrSgjswR4V4Bk1baf6hUU8ZuvVcrej"
+        },
+        {
+            "id": 10,
+            "title": "Winner of I2C 2022",
+            "desc": "Being recognized as the Best of The Best Student in the 29th Generation of SMK Telkom Malang is a tremendous honor. I express my heartfelt appreciation to my mentors and friends for their unwavering support and belief in my potential. This award symbolizes our collective pursuit of excellence and serves as a testament to our hard work.",
+            "type": "Competition",
+            "date": "2022-04",
+            "image": "https://drive.google.com/uc?id=1agiKharWvXBi7bVXc-kWYIXyYxS9RxHx"
+        },
+        {
+            "id": 11,
+            "title": "Winner of Smart Inotek 2022",
+            "desc": "Being recognized as the Best of The Best Student in the 29th Generation of SMK Telkom Malang is a tremendous honor. I express my heartfelt appreciation to my mentors and friends for their unwavering support and belief in my potential. This award symbolizes our collective pursuit of excellence and serves as a testament to our hard work.",
+            "type": "Competition",
+            "date": "2022-07",
+            "image": "https://drive.google.com/uc?id=1Eil7pwvOAtE9PxGP3_cPKj88NYTif6UC"
+        },
+        {
+            "id": 12,
+            "title": "IT Specialist - Javascript Test",
+            "desc": "Being recognized as the Best of The Best Student in the 29th Generation of SMK Telkom Malang is a tremendous honor. I express my heartfelt appreciation to my mentors and friends for their unwavering support and belief in my potential. This award symbolizes our collective pursuit of excellence and serves as a testament to our hard work.",
+            "type": "Certification",
+            "date": "2022-12",
+            "image": "https://drive.google.com/uc?id=1OUIXApftIVmicA3IRBs2tE_tvrm_z7fL"
+        },
+        {
+            "id": 13,
+            "title": "Node React Competency Test",
+            "desc": "Being recognized as the Best of The Best Student in the 29th Generation of SMK Telkom Malang is a tremendous honor. I express my heartfelt appreciation to my mentors and friends for their unwavering support and belief in my potential. This award symbolizes our collective pursuit of excellence and serves as a testament to our hard work.",
+            "type": "Certification",
+            "date": "2022-03",
+            "image": "https://drive.google.com/uc?id=17od_5kGOYrkcFLuGwMMUYiOTNIWx_ps0"
+        },
+        {
+            "id": 14,
+            "title": "Dart Programming Class",
+            "desc": "Being recognized as the Best of The Best Student in the 29th Generation of SMK Telkom Malang is a tremendous honor. I express my heartfelt appreciation to my mentors and friends for their unwavering support and belief in my potential. This award symbolizes our collective pursuit of excellence and serves as a testament to our hard work.",
+            "type": "Certification",
+            "date": "2022-07",
+            "image": "https://drive.google.com/uc?id=1_vTIZjkzq4WOcgYvPdMp5PsRquPXWqqE"
+        },
+        {
+            "id": 15,
+            "title": "Tahfidzul Qur'an Juz 30 - Mumtaz",
+            "desc": "Being recognized as the Best of The Best Student in the 29th Generation of SMK Telkom Malang is a tremendous honor. I express my heartfelt appreciation to my mentors and friends for their unwavering support and belief in my potential. This award symbolizes our collective pursuit of excellence and serves as a testament to our hard work.",
+            "type": "Certification",
+            "date": "2023-05",
+            "image": "https://drive.google.com/uc?id=1eK1AJbkHX6-SZzv4qagcnilaMSYQ6X2a"
+        },
+        {
+            "id": 16,
+            "title": "Runner Up Fasilkom Fest 2021",
+            "desc": "Being recognized as the Best of The Best Student in the 29th Generation of SMK Telkom Malang is a tremendous honor. I express my heartfelt appreciation to my mentors and friends for their unwavering support and belief in my potential. This award symbolizes our collective pursuit of excellence and serves as a testament to our hard work.",
+            "type": "Competition",
+            "date": "2022-11",
+            "image": "https://drive.google.com/uc?id=1WYFS8I32zbAg_wk1UZjA_XcB4SwwV5fC"
         }
     ]
 }
