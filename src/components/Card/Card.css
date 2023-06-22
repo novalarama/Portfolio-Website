@@ -39,7 +39,7 @@
     color: #25313D;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2; /* Menampilkan 2 baris teks */
+    -webkit-line-clamp: 2;
     line-height: 1.5;
 
 }
