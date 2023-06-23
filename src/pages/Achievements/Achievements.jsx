@@ -15,9 +15,13 @@ export default function Achievements() {
 
     useEffect(() => {
         fetch('./assets/doc/achieveData.json')
-            .then((res) => res.json())
-            .then((data) => setData(data.data.slice(0, 2)))
-    }, [])
+          .then((res) => res.json())
+          .then((data) => {
+            const sortedData = data.data.sort((a, b) => new Date(b.date) - new Date(a.date));
+            const topTwoData = sortedData.slice(0, 2);
+            setData(topTwoData);
+          });
+      }, []);
     return (
         <div className='a-bg'>
             <section id='achievements'>

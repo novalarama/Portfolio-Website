@@ -1,45 +1,103 @@
 .achievement-list {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  flex-grow: 1;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 110%;
+  color: #25313D;
+  cursor: pointer;
+}
+
+.search {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 24px;
+  border: 1px solid #25313D;
+  background: transparent;
+  width: 322px;
+  height: 62px;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.achievement-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.achievement-card {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 0.5rem);
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.achievement-image {
+  width: 100%;
+  height: 24rem;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+.achievement-details {
+  margin: 1rem;
+}
+
+.achievement-type-date {
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  color: #92989E;
+}
+
+.achievement-title {
+  text-align: left;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 2.4rem;
+  color: #25313D;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-height: 1.5;
+
+}
+
+.achievement-desc {
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  color: #25313D;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-height: 1.5;
+
+}
+
+@media (max-width: 768px) {
+  .achievement-card {
     width: 100%;
   }
-  
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-  }
-  
-  .back-button {
-    background: none;
-    border: none;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 110%;
-    color: #25313D;
-    cursor: pointer;
-  }
-  
-  .search-input {
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-  }
-  
-  .achievement-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 1rem;
-    padding: 1rem;
-  }
-  
-  .achievement-card {
-    display: flex;
-    flex-direction: column;
-    width: 50%; /* 2 achievements per row */
-  }
-  
-  @media (max-width: 768px) {
-    .achievement-card {
-      width: 100%; /* 1 achievement per row */
-    }
-  }
+}
