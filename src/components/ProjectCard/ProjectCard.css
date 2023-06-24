@@ -56,4 +56,11 @@
     color: white;
     border: none;
     margin-top: auto;
+    cursor: pointer;
+}
+
+.pc button:disabled {
+    background: #dcdcdc;
+    color: #92989E;
+    cursor: not-allowed;
 }

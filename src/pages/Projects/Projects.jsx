@@ -21,9 +21,9 @@ export default function Projects() {
                     <p className='pr-more' onClick={openModal}>See All {'>'}</p>
                 </div>
                 <div className="pr-bottom">
-                    <ProjectCard image='./assets/photo/Projects-1.png' url='' type='UI Design' title='NANGGAP APP Design' desc='This is an app design for my competition, and successfull won a competition.' />
-                    <ProjectCard image='./assets/photo/Projects-2.png' ur='https://bit.ly/AplikasiJulain' type='App' title='Jualin App' desc='This is an app for help sellers to sell their products.' />
-                    <ProjectCard image='./assets/photo/Projects-3.png' type='Web' title='Inap Web' desc='This is an web for organize rooms hotel.' />
+                    <ProjectCard image='./assets/photo/Projects-1.png' url='https://www.behance.net/gallery/160544571/NANGGAP-App-for-Teens-who-Love-Art-(Dark-Theme)' type='UI Design' title='NANGGAP APP Design' desc='This is an app design for my competition, and successfull won a competition.' />
+                    <ProjectCard image='./assets/photo/Projects-2.png' url='https://bit.ly/AplikasiJulain' type='App' title='Jualin App' desc='This is an app for help sellers to sell their products.' />
+                    <ProjectCard image='./assets/photo/Projects-3.png' url='' type='Web' title='Inap Web' desc='This is an web for organize rooms hotel.' />
                 </div>
             </div>
             <Modal
