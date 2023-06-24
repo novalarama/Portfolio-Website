@@ -22,6 +22,9 @@
 }
 
 @media (max-width: 768px) {
+    .educations{
+        padding-bottom: 16rem;
+    }
     .e-left>:nth-child(1) {
         width: 280px;
         margin: auto;

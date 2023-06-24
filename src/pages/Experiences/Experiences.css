@@ -151,6 +151,7 @@
         margin: 16px ;
         display: flex;
         position: relative;
+        margin-bottom: 36rem;
     }
     .ex-card{
         width: 94%;
@@ -174,5 +175,6 @@
     }
     .experiences{
         position: relative;
+        margin-bottom: 42rem;
     }
 }

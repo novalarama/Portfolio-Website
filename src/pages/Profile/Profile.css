@@ -76,6 +76,9 @@
 }
 
 @media (max-width: 768px) {
+    .profile{
+         margin-bottom: 16rem;
+    }
     .p-description {
         width: auto;
     }

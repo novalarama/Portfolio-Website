@@ -116,22 +116,22 @@
 }
 
 @media (max-width:768px) {
-    .projects {
+    /* .projects {
         top: 20rem;
         padding-bottom: 132rem;
-    }
+    } */
 }
 
 @media (max-width:480px) {
-    .projects {
+    /* .projects {
         top: 28rem;
-    }
+    } */
 }
 
 @media (max-width:380px) {
-    .projects {
+    /* .projects {
         top: 36rem;
-    }
+    } */
 
     .pr-top>:nth-child(1) {
         font-size: 18px;
